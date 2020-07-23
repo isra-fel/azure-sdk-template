@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Yeming Liu",
+    "classifications": [
+        "Common",
+        "Console"
+    ],
+    "identity": "AzureSDK.Management.Template.Csharp",
+    "name": "Azure .NET management-plane track 1 SDK",
+    "shortName": "azurecsmgmtsdk"
+}
