@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+   <Import Project="$(RepoEngPath)/mgmt/AzSdk.test.reference.props" /> 
+  <PropertyGroup>
+    <PackageId>SayAppPlatform.Tests</PackageId>
+    <Description>SayAppPlatform.Tests Class Library</Description>
+    <AssemblyName>SayAppPlatform.Tests</AssemblyName>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ExcludeFromBuild>false</ExcludeFromBuild>
+    <ExcludeFromTest>false</ExcludeFromTest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Microsoft.Azure.Management.SayAppPlatform.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SessionRecords\**\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
