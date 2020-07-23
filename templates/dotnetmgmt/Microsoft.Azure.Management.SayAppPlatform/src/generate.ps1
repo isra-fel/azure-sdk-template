@@ -1,1 +1,1 @@
-Start-AutoRestCodeGeneration -ResourceProvider "sayappplatform/resource-manager" -AutoRestVersion "v2"
+Start-AutoRestCodeGeneration -ResourceProvider "resourceprovider/resource-manager" -AutoRestVersion "v2"

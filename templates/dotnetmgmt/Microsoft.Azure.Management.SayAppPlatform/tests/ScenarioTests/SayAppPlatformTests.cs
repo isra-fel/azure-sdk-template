@@ -1,8 +1,8 @@
 ﻿using Xunit;
 
-namespace Microsoft.Azure.Management.SapAppPlatform.Tests.ScenarioTests
+namespace Microsoft.Azure.Management.SayAppPlatform.Tests.ScenarioTests
 {
-    public class SapAppPlatformTests
+    public class SayAppPlatformTests
     {
         [Fact]
         public void TestServiceLifeCycle()

@@ -7,5 +7,18 @@
     ],
     "identity": "AzureSDK.Management.Template.Csharp",
     "name": "Azure .NET management-plane track 1 SDK",
-    "shortName": "azurecsmgmtsdk"
+    "shortName": "azurecsmgmtsdk",
+    "symbols": {
+        "ResourceProvider": {
+            "type": "parameter",
+            "description": "Resource provider in CamelCase e.g. AppPlatform. This will be your project's name: 'Microsoft.Azure.Management.{ResourceProvider}'",
+            "replaces": "SayAppPlatform",
+            "FileRename": "SayAppPlatform"
+        },
+        "rplower": {
+            "type": "parameter",
+            "description": "Resource provider in lowercase e.g. appplatform. This should be found in the URL to your OpenAPI spec.",
+            "replaces": "resourceprovider"
+        }
+    }
 }
