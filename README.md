@@ -2,23 +2,31 @@
 
 ## Supported templates
 
-- Azure .NET(C#) SDK (management plane, track 1 only)
+- Azure .NET(C#) SDK (management plane, track 1)
 
-## Usage:
+## Usage
 
-```
-dotnet pack
-dotnet new -i .\bin\Debug\AzureSDK.Templates.0.1.0.nupkg
-# cd to azure-sdk-for-net/sdk
-# mkdir moonbucks
-# cd moonbucks
-dotnet new azurecsmgmtsdk -R Moonbucks -r moonbucks
-```
+1. Download the nupkg from the [releases page](https://github.com/isra-fel/azure-sdk-template/releases)
+1. Install (or update) the template `dotnet new -i .\AzureSDK.Templates.0.1.0.nupkg`
+1. Create your project
+    ```cmd
+    cd azure-sdk-for-net\sdk
+    mkdir appconfiguration
+    cd appconfiguration
+    dotnet new azurecsmgmtsdk -R AppConfiguration -r appconfiguration
+    ```
 
 ## Help
 
-```
+```cmd
 dotnet new azurecsmgmtsdk -h
+```
+
+## Build
+
+```cmd
+dotnet pack
+dotnet i .\bin\Debug\AzureSDK.Templates.0.1.0.nupkg
 ```
 
 ## Reference
