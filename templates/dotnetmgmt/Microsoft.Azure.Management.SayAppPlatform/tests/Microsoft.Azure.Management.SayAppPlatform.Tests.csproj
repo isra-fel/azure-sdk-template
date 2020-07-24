@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-   <Import Project="$(RepoEngPath)/mgmt/AzSdk.test.reference.props" />
+   <Import Project="$(RepoEngPath)/mgmt/AzSdk.test.reference.props" /> 
   <PropertyGroup>
-    <PackageId>ResourceProvider.Tests</PackageId>
-    <Description>ResourceProvider.Tests Class Library</Description>
-    <AssemblyName>ResourceProvider.Tests</AssemblyName>
+    <PackageId>SayAppPlatform.Tests</PackageId>
+    <Description>SayAppPlatform.Tests Class Library</Description>
+    <AssemblyName>SayAppPlatform.Tests</AssemblyName>
     <VersionPrefix>1.0.0</VersionPrefix>
   </PropertyGroup>
   <PropertyGroup>
@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Microsoft.Azure.Management.ResourceProvider.csproj" />
+    <ProjectReference Include="..\src\Microsoft.Azure.Management.SayAppPlatform.csproj" />
   </ItemGroup>
 
   <ItemGroup>
