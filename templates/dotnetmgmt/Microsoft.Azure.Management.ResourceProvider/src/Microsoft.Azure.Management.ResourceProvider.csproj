@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <!-- Please do not move/edit code below this line -->
-  <Import Project="$(RepoEngPath)/mgmt/AzSdk.reference.props" /> 
+  <Import Project="$(RepoEngPath)/mgmt/AzSdk.reference.props" />
   <!-- Please do not move/edit code above this line -->
 
   <PropertyGroup>
-    <PackageId>Microsoft.Azure.Management.SayAppPlatform</PackageId>
+    <PackageId>Microsoft.Azure.Management.ResourceProvider</PackageId>
     <Description>TBD</Description>
     <Version>1.0.0-preview.1</Version>
-    <AssemblyName>Microsoft.Azure.Management.SayAppPlatform</AssemblyName>
+    <AssemblyName>Microsoft.Azure.Management.ResourceProvider</AssemblyName>
     <PackageTags>management;azure;TBD;</PackageTags>
     <PackageReleaseNotes>
       <![CDATA[
