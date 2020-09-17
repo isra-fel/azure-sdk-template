@@ -1,5 +1,7 @@
 # azure-sdk-template
 
+Tempates of dotnet commandline to quickly onboard Azure SDK.
+
 ## Supported templates
 
 - Azure .NET(C#) SDK (management plane, track 1)
