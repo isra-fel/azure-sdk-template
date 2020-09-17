@@ -7,7 +7,7 @@
 ## Usage
 
 1. Download the nupkg from the [releases page](https://github.com/isra-fel/azure-sdk-template/releases)
-1. Install (or update) the template `dotnet new -i .\AzureSDK.Templates.0.1.0.nupkg`
+1. Install (or update) the template `dotnet new -i .\AzureSDK.Templates.x.y.z.nupkg`
 1. Create your project
     ```cmd
     cd azure-sdk-for-net\sdk
@@ -15,6 +15,7 @@
     cd appconfiguration
     dotnet new azurecsmgmtsdk -R AppConfiguration -r appconfiguration
     ```
+    `-R` will be used in your project name. It should be in PascalCase; `-r` will be used to retrieve swagger. It should be in lowercase.
 
 ## Help
 
@@ -22,7 +23,7 @@
 dotnet new azurecsmgmtsdk -h
 ```
 
-## Build
+## Build & Debug
 
 ```cmd
 dotnet pack

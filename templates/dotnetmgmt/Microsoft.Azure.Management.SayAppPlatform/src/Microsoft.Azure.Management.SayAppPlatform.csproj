@@ -6,7 +6,7 @@
   <PropertyGroup>
     <PackageId>Microsoft.Azure.Management.SayAppPlatform</PackageId>
     <Description>TBD</Description>
-    <Version>1.0.0-preview.1</Version>
+    <Version>0.1.0</Version>
     <AssemblyName>Microsoft.Azure.Management.SayAppPlatform</AssemblyName>
     <PackageTags>management;azure;TBD;</PackageTags>
     <PackageReleaseNotes>
